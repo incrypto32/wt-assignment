@@ -281,6 +281,33 @@ body {
   color: #e6193b;
 }
 
+.experience-table {
+  width: 100%;
+}
+
+.experience-table h1 {
+  text-align: center;
+}
+
+.experience-table .table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.experience-table .table table {
+  text-align: left;
+}
+
+.experience-table .table table td,
+.experience-table .table table th {
+  padding: 1rem;
+  border: 1px white solid;
+}
+
 .about-section {
   width: 100%;
   display: -webkit-box;
@@ -505,7 +532,7 @@ body {
 }
 
 .contact .contact-form .contact-field {
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: rgba(255, 255, 255, 0.1);
   border: none;
   font-size: 1rem;
